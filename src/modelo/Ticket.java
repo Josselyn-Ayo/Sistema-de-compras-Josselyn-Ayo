@@ -18,17 +18,25 @@ public abstract class Ticket {
         this.maletasExtra = maletasExtra;
     }
 
-    public Pasajero getPasajero() { return pasajero; }
-    public void setPasajero(Pasajero pasajero) { this.pasajero = pasajero; }
+    public Pasajero getPasajero() {
+        return pasajero; }
+    public void setPasajero(Pasajero pasajero) {
+        this.pasajero = pasajero; }
 
-    public Ruta getRuta() { return ruta; }
-    public void setRuta(Ruta ruta) { this.ruta = ruta; }
+    public Ruta getRuta() {
+        return ruta; }
+    public void setRuta(Ruta ruta) {
+        this.ruta = ruta; }
 
-    public String getAsiento() { return asiento; }
-    public void setAsiento(String asiento) { this.asiento = asiento; }
+    public String getAsiento() {
+        return asiento; }
+    public void setAsiento(String asiento) {
+        this.asiento = asiento; }
 
-    public int getMaletasExtra() { return maletasExtra; }
-    public void setMaletasExtra(int maletasExtra) { this.maletasExtra = maletasExtra; }
+    public int getMaletasExtra() {
+        return maletasExtra; }
+    public void setMaletasExtra(int maletasExtra) {
+        this.maletasExtra = maletasExtra; }
 
     public abstract double calcularCosto();
 

@@ -12,14 +12,20 @@ public class Ruta {
         this.costo = costo;
     }
 
-    public String getOrigen() { return origen; }
-    public void setOrigen(String origen) { this.origen = origen; }
+    public String getOrigen() {
+        return origen; }
+    public void setOrigen(String origen) {
+        this.origen = origen; }
 
-    public String getDestino() { return destino; }
-    public void setDestino(String destino) { this.destino = destino; }
+    public String getDestino() {
+        return destino; }
+    public void setDestino(String destino) {
+        this.destino = destino; }
 
-    public double getCosto() { return costo; }
-    public void setCosto(double costo) { this.costo = costo; }
+    public double getCosto() {
+        return costo; }
+    public void setCosto(double costo) {
+        this.costo = costo; }
 
     @Override
     public String toString() {

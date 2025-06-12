@@ -30,7 +30,8 @@ public class Servicio {
 
     public boolean isInternet() {
         return internet; }
-    public void setInternet(boolean internet) { this.internet = internet; }
+    public void setInternet(boolean internet) {
+        this.internet = internet; }
 
     @Override
     public String toString() {
